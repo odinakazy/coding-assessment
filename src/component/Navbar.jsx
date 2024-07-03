@@ -8,7 +8,7 @@ import UserImage from "../assets/user.png";
 import Arrows from "../assets/arrow.svg";
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center bg-[#FFFFFF] py-4 px-10">
+    <nav className="flex justify-between items-center bg-[#FFFFFF] py-4 px-10 shaow-lg">
       <div className="flex items-center space-x-8">
         <img src={Logo} alt="logo image" />
         <input
@@ -35,7 +35,7 @@ function Navbar() {
       </div>
 
       <div className="flex items-center justify-center space-x-8">
-        {/* please note i coup have used an array and map through to maintain the DRY principle but i decided to use this since i dont really know real life case study  */}
+        {/* please note i coup have used an array and map through to maintain the DRY principle but i decided to use this since i dont really know real life case study which might be clickable  */}
         <div className="flex flex-col items-center justify-center mt-[-0.1rem]">
           <img src={Notificationsvg} alt="Notificationsvg" />
           <h6 className="font-satoshi text-[0.75rem] ">Notifications</h6>
